@@ -1,0 +1,42 @@
+.form {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+  text-transform: uppercase;
+
+  &__container {
+    padding: 40px;
+    background: #f2f2fd;
+  }
+
+  &__name {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+
+    &-label {
+      margin-bottom: 5px;
+    }
+
+    &-field {
+      font-size: 1rem;
+      padding: 10px;
+    }
+  }
+
+  &__button {
+    background: #ceddfd;
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    width: 55%;
+    border: none;
+  }
+}
